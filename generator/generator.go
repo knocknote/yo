@@ -31,6 +31,7 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/kenshaw/snaker"
 	"golang.org/x/tools/imports"
 
 	"go.mercari.io/yo/internal"
@@ -152,7 +153,7 @@ func (g *Generator) Generate(tableMap map[string]*internal.Type, ixMap map[strin
 // the os.OpenFile with the correct parameters depending on the state of args.
 func (g *Generator) getFile(ds *basicDataSet, t *TBuf) (*os.File, error) {
 	// determine filename
-	var filename = strings.ToLower(t.Name) + g.filenameSuffix
+	var filename = snaker.CamelToSnakeIdentifier(t.Name) + g.filenameSuffix
 	if g.singleFile {
 		filename = g.filename
 	}
