@@ -26,9 +26,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"go.mercari.io/yo/v2/config"
-	"go.mercari.io/yo/v2/internal"
-	"go.mercari.io/yo/v2/models"
+	"github.com/knocknote/yo/v2/config"
+	"github.com/knocknote/yo/v2/internal"
+	"github.com/knocknote/yo/v2/models"
 )
 
 var (

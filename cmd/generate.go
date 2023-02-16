@@ -22,10 +22,10 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/knocknote/yo/generator"
+	"github.com/knocknote/yo/internal"
+	"github.com/knocknote/yo/loaders"
 	"github.com/spf13/cobra"
-	"go.mercari.io/yo/generator"
-	"go.mercari.io/yo/internal"
-	"go.mercari.io/yo/loaders"
 )
 
 var (

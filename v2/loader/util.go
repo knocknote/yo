@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.mercari.io/yo/v2/internal"
+	"github.com/knocknote/yo/v2/internal"
 )
 
 var lengthRegexp = regexp.MustCompile(`\(([0-9]+|MAX)\)$`)

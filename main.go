@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.mercari.io/yo/cmd"
+	"github.com/knocknote/yo/cmd"
 )
 
 func main() {

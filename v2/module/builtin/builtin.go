@@ -20,7 +20,7 @@
 package builtin
 
 import (
-	"go.mercari.io/yo/v2/module"
+	"github.com/knocknote/yo/v2/module"
 )
 
 var (
