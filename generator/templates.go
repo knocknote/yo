@@ -23,7 +23,7 @@ import (
 	"io"
 	"text/template"
 
-	"go.mercari.io/yo/internal"
+	"github.com/knocknote/yo/internal"
 )
 
 // TemplateType represents a template type.

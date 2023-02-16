@@ -26,7 +26,7 @@ import (
 	"github.com/MakeNowJust/memefish/pkg/ast"
 	"github.com/MakeNowJust/memefish/pkg/parser"
 	"github.com/MakeNowJust/memefish/pkg/token"
-	"go.mercari.io/yo/models"
+	"github.com/knocknote/yo/models"
 )
 
 func NewSpannerLoaderFromDDL(fpath string) (*SpannerLoaderFromDDL, error) {

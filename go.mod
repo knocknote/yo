@@ -1,4 +1,4 @@
-module go.mercari.io/yo
+module github.com/knocknote/yo
 
 go 1.18
 

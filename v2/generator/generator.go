@@ -26,9 +26,9 @@ import (
 	"os"
 	"path"
 
-	"go.mercari.io/yo/v2/internal"
-	"go.mercari.io/yo/v2/models"
-	"go.mercari.io/yo/v2/module"
+	"github.com/knocknote/yo/v2/internal"
+	"github.com/knocknote/yo/v2/models"
+	"github.com/knocknote/yo/v2/module"
 )
 
 // Loader is the common interface for database drivers that can generate code

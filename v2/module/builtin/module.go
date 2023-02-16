@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.mercari.io/yo/v2/module"
+	"github.com/knocknote/yo/v2/module"
 )
 
 //go:embed templates/*.tpl

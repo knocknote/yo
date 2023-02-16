@@ -24,8 +24,8 @@ import (
 	"io"
 	"text/template"
 
-	"go.mercari.io/yo/v2/models"
-	"go.mercari.io/yo/v2/module"
+	"github.com/knocknote/yo/v2/models"
+	"github.com/knocknote/yo/v2/module"
 )
 
 var (
